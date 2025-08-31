@@ -100,7 +100,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART3_UART_Init(void);
 // static void MX_RTC_Init(void);
-// static void MX_LPTIM3_Init(void);
+static void MX_LPTIM3_Init(void);
 void mainOsTask(void *argument);
 void ledTimerCallback(void *argument);
 void resultsTimerCallback(void *argument);
